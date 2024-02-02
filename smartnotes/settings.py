@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-g4%_t)c(8$ao7gk9-c41+p++l3^%y_m%0ozp109ptslk!p%d9^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['BenStrange.eu.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
@@ -132,4 +132,7 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = '/smart/notes'
+
+LOGIN_URL = '/login/'
+
 
